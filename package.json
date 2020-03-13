@@ -1,0 +1,25 @@
+{
+  "name": "bar-buddy-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nholden212/bar-buddy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nholden212/bar-buddy/issues"
+  },
+  "homepage": "https://github.com/nholden212/bar-buddy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jasmine": "^3.5.0",
+    "pg": "^7.18.2"
+  }
+}
