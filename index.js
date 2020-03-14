@@ -10,8 +10,10 @@ app.use(
   })
 );
 
-app.get('/', (request, response) => {
-  response.json({ info: "Bar buddy app!" });
+app.set('view engine', 'ejs');
+
+app.get('/', (req, res) => {
+  res.render('main.ejs');
 });
 
 app.listen(port, () => {
